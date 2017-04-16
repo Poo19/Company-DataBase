@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
  
 EXEC SQL END DECLARE SECTION;
 
-    EXEC SQL CONNECT TO unix:postgresql://localhost /cs687 USER pg0018 USING "f16687"; 
+    EXEC SQL CONNECT TO unix:postgresql://localhost USER username USING password; 
 
     //printf("CONNECTED\n");
 	
